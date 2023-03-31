@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-------------------------------------NAVEGATION BAR------------------------------>
+    <nav class="d-flex p-2 align-items-center justify-content-between sticky-top">
+        <h1>PetShop</h1>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mis Datos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mis compras</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Cerrar Sesión</a>
+            </li>
+        </ul>
+    </nav>
+    <!------------------------------------------------------------------------------------->
+    <!-------------------------------------CARRUSEL---------------------------------------->
+    <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/foto1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/foto2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/foto3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!----------------------------------------------------------------------------------------------->
+    <!--------------------------------------WEAS DEL CENTRO------------------------------------------>
+    <div class="container">
+        <div class="row">
+            <div class="col p-5">
+                <a target="_blank" href="#" class="d-flex flex-column align-items-center nav-link">
+                    <img src="img/Schnoz.jpg" alt="Example Image">
+                    <p class="p-3 text-success"> Disponible</br>
+                        $8000</br>
+                        Saco de alimento Royal Canin</br>
+                        Descripcion:</br>
+                        Royal Canin, 3 kg, sabor a pavo, adulto</br>
+                        En stock: 3 unidades</br></p>
+                </a>
+            </div>
+            <div class="col p-5">
+                <a target="_blank" href="#" class="d-flex flex-column align-items-center nav-link">
+                    <img src="img/Schnoz.jpg" alt="Example Image">
+                    <p class="p-3 text-primary"> EN OFERTA</br>
+                        <span class="text-decoration-line-through">$8000</span>$6000 <br/>
+                        Saco de alimento Master Cat</br>
+                        Descripcion:</br>
+                        Master Cat, 3 kg, sabor a carne, adulto</br>
+                        En stock: 5 unidades</br></p>
+                </a>
+            </div>
+            <div class="col p-5">
+                <a target="_blank" href="#" class="d-flex flex-column align-items-center nav-link">
+                    <img src="img/Schnoz.jpg" alt="Example Image">
+                    <p class="p-3 text-danger"> Disponible</br>
+                        $3000</br>
+                        Saco de alimento Don Cuchito</br>
+                        Descripcion:</br>
+                        Don Cuchito, 1 kg, sabor pescado, adulto</br>
+                        En stock: 0 unidades</br></p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container  ">
+        <div class="row-cols-1">
+            <div class="col">
+                <a target="_blank" href="#" class="d-flex">
+                    <!-- Imagen relacionada con la canción -->
+                    <img width="130px" src="img/bingchiling.jpg" alt="" />
+                    <!-- Producto -->
+                    <p class="text-"> Por compras superiores a $20.000 ya</br>
+                        estás concursando por una prenda de</br>
+                        vestira mirá aquí los premios.
+                        </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------->
+    <!-------------------------------------FOOTER------------------------------>
+    <footer class="d-flex p-2 align-items-center justify-content-center sticky-bottom">
+        <ul class="nav">
+            <li class="nav-item">
+                <p>
+                    WhatsApp +56 9 5266 2566 &nbsp;
+                </p>
+            </li>
+            <li class="nav-item">
+                <p>
+                    Facebook &nbsp;
+                </p>
+            </li>
+            <li class="nav-item">
+                <p>
+                    Instagram &nbsp;
+                </p>
+            </li>
+            <li>
+                <p>
+                    Dirección: Moneda 627, Santiago &nbsp;
+                </p>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
